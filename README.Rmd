@@ -1,26 +1,29 @@
 ---
-title: "NBA Outliers"
+title: "NBA Outliers via Statistics"
 output: github_document
 ---
 
-## Explanation
+## Motivation
 
+In the sport of Basketball certain categories for great/outstanding performances exist.
 
+Some examples of exceptional single-game performance are:
 
-## Including Code
+* The Double Double: At least 10 in 2 of the 5 categories (points, rebounds, assists, blocks, steals)
+* The Triple Double: At least 10 in 3 of the 5 categories
+* The Quadruple Double: At least 10 in 4 of the 5 categories
+* The five-by-five: At least 5 in all 5 categories 
 
-You can include R code in the document as follows:
+While Double Doubles & Triple Doubles are quite common in a single-game context, the quadruple double and the five-by-five are rare. The former occuring only **four times** since 1973 and the latter occuring **19 times** since 1984 (in the NBA).
 
-```{r cars}
-summary(cars)
-```
+https://en.wikipedia.org/wiki/Double_(basketball)
 
-## Including Plots
+* Video Game Numbers: Adding up the counts in all 5 categories to one number (without weighing)
 
-You can also embed plots, for example:
+## Questions
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+My questions are
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+* How rare are these occurences (in a statistical sense), and
+* What would be a better measure of exceptional performance per game
+
